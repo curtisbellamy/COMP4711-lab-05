@@ -1,0 +1,122 @@
+#directory {
+    width: 680px;
+    height: 150px;
+    border-radius: 5px;
+    border: solid  rgb(236, 236, 236);
+    border-width: 2px;
+    margin: auto auto;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+#inputForm {
+    margin: 0 auto;
+    display: grid;
+    width: 400px;
+}
+
+#container {
+    padding-top: 50px;
+    /* text-align: center */
+}
+
+.artistImg {
+    padding: 15px;
+    float: left;
+    border-radius: 10%;
+}
+
+#artistList {
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+    border: solid  rgb(236, 236, 236);
+    border-width: 2px;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.deleteBtn {
+    float: right;
+    margin: 20px;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+.artistInfo {
+    border-bottom: solid rgb(236, 236, 236);
+    border-bottom-width: 2px;
+    margin: auto;
+    height: 100px;
+}
+
+.artistInfo:hover {
+    border-bottom: solid  lightgray;
+    border-bottom-width: 2px;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(243, 243, 243);
+}
+
+.name {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.school {
+    margin: auto;
+    font-weight: 100
+}
+
+#header {
+    text-align: left;
+    padding-left: 35px
+}
+
+.textInput {
+    width: 425px;
+    height: 35px;
+    border: solid  rgb(236, 236, 236);
+    font-size: 19pt;
+    margin-right: 10px;
+}
+
+.textInput2 {
+    width: 400px;
+    height: 35px;
+    border: solid  rgb(236, 236, 236);
+    border-radius: 5px;
+    font-size: 19pt;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#button1 {
+    width: 90px;
+    height: 40px;
+    background-color: lightgray;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15pt
+}
+
+#button2 {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+

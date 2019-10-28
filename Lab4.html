@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artists</title>
+    <link rel="stylesheet" type="text/css" href='styles.css'>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <script src='script.js'></script>
+    <body>
+    <div id="container">
+        <div id="directory">
+            <h1 id="header" >Artist Directory</h1>
+            <input onkeyup="search(document.getElementsByClassName('textInput')[0].value)" class="textInput">
+            <button onclick="showForm()" id="button1">Add</button>
+            <button id="button1" onclick="search(document.getElementsByClassName('textInput')[0].value)">Search</button>
+        </div>
+        <form action="/artist/add" method="POST" id="inputForm">
+            <input id="name" name="artist_name" class="textInput2" placeholder="Artist Name" value=>
+            <input id="info" name="artist_info" class="textInput2" placeholder="About Artist">
+            <input id="img" name="artist_img" class="textInput2" placeholder="Image URL">
+            <input type="submit" id="button2" value="Add">
+        </form>
+
+        <div id="artistList">
+    
+
+        
+        </div>
+    </div>
+    
+</body>
+</html>

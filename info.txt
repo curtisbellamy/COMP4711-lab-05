@@ -1,0 +1,1 @@
+[{"name":"Curtis","info":"BCIT","img":"https://randomuser.me/api/portraits/med/women/77.jpg"},{"name":"Barry","info":"Nobell","img":"https://randomuser.me/api/portraits/med/men/11.jpg"}]
